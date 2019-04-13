@@ -15,3 +15,7 @@ function addElementToEndOfArray(array,x) {
 function destuctivelyAddElementToEndOfArray(array, x) {
   return array.push(x);
 }
+
+function accessElementInArray(array, indexNum) {
+  return array[indexNum];
+}
