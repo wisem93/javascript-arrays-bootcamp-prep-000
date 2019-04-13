@@ -19,3 +19,7 @@ function destuctivelyAddElementToEndOfArray(array, x) {
 function accessElementInArray(array, indexNum) {
   return array[indexNum];
 }
+
+function destrucivelyRemoveElementFromBeginningOfArray(array) {
+  return array.shift();
+}
